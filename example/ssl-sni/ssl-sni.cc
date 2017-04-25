@@ -57,7 +57,7 @@ Load_Config_File()
     return -1;
   }
   Config = cv;
-  return 1;
+  return 0;
 }
 
 int

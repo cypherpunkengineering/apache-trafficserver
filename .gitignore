@@ -2,7 +2,6 @@
 *.a
 *.so
 *.pyc
-Makefile.in
 *~
 *.tar.gz
 *.lo

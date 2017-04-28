@@ -7279,6 +7279,7 @@ HttpSM::set_next_state()
 
   case HttpTransact::SM_ACTION_DNS_LOOKUP: {
     sockaddr const *addr;
+    DebugSM("dns", "DNS LOOKUP");
 
     if (t_state.api_server_addr_set) {
       /* If the API has set the server address before the OS DNS lookup
